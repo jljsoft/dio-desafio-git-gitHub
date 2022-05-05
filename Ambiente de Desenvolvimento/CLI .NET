@@ -1,0 +1,10 @@
+CLI .Net
+dotnet --version // mostra a versão do .net instalada
+dotnet --help // mostra todos os comandos 
+dotnet --info// exibe as informações do dotnet instalado
+dotnet new // cria um projeto / lista os modelos que podem ser criado
+dotnet new --list --tag web/ exemplo de filtro para ver os tipos de projeto web que podem ser criado.
+dotnet new console -o myApp / exemplo de criação de projeto console
+dotnet run / executa o projeto
+dotnet build /compilar
+dotnet restore
