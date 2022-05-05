@@ -1,2 +1,5 @@
 # dio-desafio-git-gitHub
-Repositório para desafio da DIO de GitHub 
+Repositorio criado para desafio da Dio
+Documentação de todo o processo de aprendizagem
+
+
