@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using static System.Console;
 
 namespace aula_1
@@ -91,13 +92,119 @@ namespace aula_1
                 pares[i] = pares[i] + 1;
             }
         }
-       public static void Main()
-       {
+        static void Demo5()
+        {
+            
            int[] pares = new int[]{0, 2, 4, 6, 8};
 
            MudarParaImpar(pares);
 
            WriteLine($"Os numeros impares são: {string.Join(",", pares)}");
+        }
+        //----------------------------------------------
+        //----------------------------------------------
+        static int EncontrarNumero(int[] numeros, int numero)
+        {
+            for (int i = 0; i < numeros.Length; i++)
+            {
+                if(numeros[i] == numero)
+                return i;
+            }
+            return -1;
+        }
+        static void Demo6()
+        {
+            
+           int[] numeros = new int[]{0, 2, 4, 6, 8};
+           WriteLine("Digite o numero que gostaria de encontrar:");
+           var numero = int.Parse(ReadLine());
+           var idxEncontrado = EncontrarNumero(numeros,numero);
+
+           if(idxEncontrado >= 0)
+           {
+              WriteLine($"O número digitado está na posição {idxEncontrado}");
+           }
+           else
+           {
+              WriteLine("O número digitado não foi encontrado");
+           }
+        }
+        //----------------------------------------------
+        //----------------------------------------------
+        static bool EncontrarPessoa(List<Pessoa> pessoas, Pessoa pessoa)
+        {
+            foreach (var item in pessoas)
+            {
+                //Para reference types, a comparação ocorre entre as referencias, o endereço na memoria.
+                //Esta e a forma correta, especificando que a comparação e entre valores
+                if(item.Nome == pessoa.Nome)
+                {
+                return true;
+                }
+            }
+            return false;
+        }
+        static void Demo7()
+        {
+            List<Pessoa> pessoas = new List<Pessoa>()
+            {
+            new Pessoa(){Nome = "Ricardo"},
+            new Pessoa(){Nome = "José"},
+            new Pessoa(){Nome = "Maria"},
+            new Pessoa(){Nome = "Fabiana"},
+            new Pessoa(){Nome = "Eduardo"},
+            };
+
+            WriteLine("Digite a pessoa que gostaria de localizar:");
+            var nome = ReadLine();
+            var pessoa = new Pessoa(){Nome = nome};
+            var encontrado = EncontrarPessoa(pessoas, pessoa);
+            if(encontrado)
+            {
+                WriteLine("Pessoa localizada!");
+            }
+            else
+            {
+                WriteLine("Pessoa não localizada");
+            }
+        }
+        //----------------------------------------------
+        //----------------------------------------------
+        static bool EncontrarPessoa(List<StructPessoa> pessoas, StructPessoa pessoa)
+        {
+            foreach (var item in pessoas)
+            {
+                if(item.Equals(pessoa))
+                {
+                return true;
+                }
+            }
+            return false;
+        }
+       public static void Main()
+       {
+            List<StructPessoa> pessoas = new List<StructPessoa>()
+            {
+            new StructPessoa(){Nome = "João Lucas"},
+            new StructPessoa(){Nome = "José"},
+            new StructPessoa(){Nome = "Iara"},
+            new StructPessoa(){Nome = "Fabiana"},
+            new StructPessoa(){Nome = "Eduarda"},
+            };
+
+            WriteLine("Digite a pessoa que gostaria de localizar:");
+            var nome = ReadLine();
+            var pessoa = new StructPessoa(){Nome = nome};
+            var encontrado = EncontrarPessoa(pessoas, pessoa);
+            if(encontrado)
+            {
+                WriteLine("Pessoa localizada!");
+            }
+            else
+            {
+                WriteLine("Pessoa não localizada");
+            }
+
        }
     }
 }
