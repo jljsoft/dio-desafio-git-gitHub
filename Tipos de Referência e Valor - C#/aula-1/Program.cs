@@ -15,8 +15,8 @@ namespace aula_1
 
             WriteLine($"O Valor da variável a é {a}");
         }
-        // -------------------------------------------
-        // -------------------------------------------
+        // ---------------------------------------------
+        // ---------------------------------------------
         static void TrocarNome(Pessoa p1, string novoNome)
         {
             p1.Nome = novoNome;
@@ -41,8 +41,8 @@ namespace aula_1
             O nome de p2 é: {p2.Nome} 
             ");
         }
-        //---------------------------------------------
-        //---------------------------------------------
+        //----------------------------------------------
+        //----------------------------------------------
         static StructPessoa TrocarNome(StructPessoa p1, string nomeNovo)
         {
             p1.Nome = nomeNovo;
@@ -82,9 +82,22 @@ namespace aula_1
 
            WriteLine($"O novo nome é:{nome}");
         }
+        //----------------------------------------------
+        //----------------------------------------------
+        static void MudarParaImpar(int[] pares)
+        {
+            for (int i = 0; i < pares.Length; i++)
+            {
+                pares[i] = pares[i] + 1;
+            }
+        }
        public static void Main()
        {
-           Demo4();
+           int[] pares = new int[]{0, 2, 4, 6, 8};
+
+           MudarParaImpar(pares);
+
+           WriteLine($"Os numeros impares são: {string.Join(",", pares)}");
        }
     }
 }
