@@ -1,0 +1,16 @@
+/home/joaoluks/Documentos/DIO/dio-desafio-git-gitHub/Tipos de Referência e Valor - C#/aula-1/bin/Debug/net5.0/aula-1
+/home/joaoluks/Documentos/DIO/dio-desafio-git-gitHub/Tipos de Referência e Valor - C#/aula-1/bin/Debug/net5.0/aula-1.deps.json
+/home/joaoluks/Documentos/DIO/dio-desafio-git-gitHub/Tipos de Referência e Valor - C#/aula-1/bin/Debug/net5.0/aula-1.runtimeconfig.json
+/home/joaoluks/Documentos/DIO/dio-desafio-git-gitHub/Tipos de Referência e Valor - C#/aula-1/bin/Debug/net5.0/aula-1.runtimeconfig.dev.json
+/home/joaoluks/Documentos/DIO/dio-desafio-git-gitHub/Tipos de Referência e Valor - C#/aula-1/bin/Debug/net5.0/aula-1.dll
+/home/joaoluks/Documentos/DIO/dio-desafio-git-gitHub/Tipos de Referência e Valor - C#/aula-1/bin/Debug/net5.0/aula-1.pdb
+/home/joaoluks/Documentos/DIO/dio-desafio-git-gitHub/Tipos de Referência e Valor - C#/aula-1/obj/Debug/net5.0/aula-1.csproj.AssemblyReference.cache
+/home/joaoluks/Documentos/DIO/dio-desafio-git-gitHub/Tipos de Referência e Valor - C#/aula-1/obj/Debug/net5.0/aula-1.GeneratedMSBuildEditorConfig.editorconfig
+/home/joaoluks/Documentos/DIO/dio-desafio-git-gitHub/Tipos de Referência e Valor - C#/aula-1/obj/Debug/net5.0/aula-1.AssemblyInfoInputs.cache
+/home/joaoluks/Documentos/DIO/dio-desafio-git-gitHub/Tipos de Referência e Valor - C#/aula-1/obj/Debug/net5.0/aula-1.AssemblyInfo.cs
+/home/joaoluks/Documentos/DIO/dio-desafio-git-gitHub/Tipos de Referência e Valor - C#/aula-1/obj/Debug/net5.0/aula-1.csproj.CoreCompileInputs.cache
+/home/joaoluks/Documentos/DIO/dio-desafio-git-gitHub/Tipos de Referência e Valor - C#/aula-1/obj/Debug/net5.0/aula-1.dll
+/home/joaoluks/Documentos/DIO/dio-desafio-git-gitHub/Tipos de Referência e Valor - C#/aula-1/obj/Debug/net5.0/refint/aula-1.dll
+/home/joaoluks/Documentos/DIO/dio-desafio-git-gitHub/Tipos de Referência e Valor - C#/aula-1/obj/Debug/net5.0/aula-1.pdb
+/home/joaoluks/Documentos/DIO/dio-desafio-git-gitHub/Tipos de Referência e Valor - C#/aula-1/obj/Debug/net5.0/aula-1.genruntimeconfig.cache
+/home/joaoluks/Documentos/DIO/dio-desafio-git-gitHub/Tipos de Referência e Valor - C#/aula-1/obj/Debug/net5.0/ref/aula-1.dll
