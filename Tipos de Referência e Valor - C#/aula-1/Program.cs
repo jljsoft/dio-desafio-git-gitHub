@@ -48,9 +48,9 @@ namespace aula_1
             p1.Nome = nomeNovo;
             return p1;
         }
-       public static void Main()
-       {
-            
+        static void Demo3()
+        {
+              
             StructPessoa p1 = new StructPessoa
             {
             Documento = "123456",
@@ -66,7 +66,25 @@ namespace aula_1
             Nome do p1 {p1.Nome}
             Nome do p2 {p2.Nome}
             ");
+        }
+        //----------------------------------------------
+        //----------------------------------------------
+        static string TrocarNome(string nome, string nomeNovo)
+        {
+            nome = nomeNovo;
+            return nome;
+        }
+        static void Demo4()
+        {
+           string nome = "João Lucas";
 
+           nome = TrocarNome(nome, "Thiago");
+
+           WriteLine($"O novo nome é:{nome}");
+        }
+       public static void Main()
+       {
+           Demo4();
        }
     }
 }

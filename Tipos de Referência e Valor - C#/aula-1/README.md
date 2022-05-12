@@ -19,4 +19,12 @@ O objetivo desta demo e criar uma classe Pessoa com os seguintes atributos “No
 * Teste 3
     Criamos um novo objeto p2, com uma nova referencia para uma outra instância. Agora, p2 guarda as informações em uma nova instancia da heap.
 
-* Teste 4
+## Demo 3
+ 
+ Criamos uma struct pessoal para simular o mesmo comportamento da demo 2, porem agora utilizando um value type.
+
+## Demo 4
+
+O objetivo dessa demo e criar um metodo que recebe como paramentro um nome (definido no escopo do metodo main) e um novo nome para efetuar uma troca. Com esse exemplo vemos que as strings são refence type com comportamento de value type.
+
+
